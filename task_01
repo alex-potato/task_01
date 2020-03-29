@@ -25,9 +25,9 @@ for i in range(21):
 print(x,"    ",f)
 fp.close()
 plt.figure()
-plt.xlabel("x")         # ось абсцисс
-plt.ylabel("f(x)")      # ось ординат
+plt.xlabel("x")         
+plt.ylabel("f(x)")      
 plt.plot(x,f)
 plt.grid()
-plt.savefig('image.png')            # включение отображение сетки
+plt.savefig('image.png')           
 plt.show()
