@@ -13,7 +13,7 @@ fp = open('results/task_01_4o-506c_Shemshura_09.txt', 'w', encoding='utf-8')
 x = np.linspace(-10, 10, 500)
 f = 0.5 + (((np.sin(x**2 - A**2)) * (np.sin(x**2 - A**2)) - 0.5) /
            ((1 + 0.001 * (x**2 + A**2))**2))
-for i in range(21):
+for i in range(500):
     print(x[i], '   ', f[i], file=fp, end="\n")
 
 print(x, "    ", f)
